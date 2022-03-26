@@ -30,11 +30,20 @@
     
     <div class="card container-fluid" style="width: 18rem;"> <!--Container fluid adds auto margins to both sides so its in the middle-->
         <div class="card-body">
-            <h5 class="card-title">Class 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <h5 class="card-title mb-3">Class 1</h5>
+            <div class="form-floating mb-3 mt-2">
+                <input class="form-control" type="text" placeholder="Class Name" aria-label="Class Name">
+                <label for="floatingInput">Class Name</label>
+            </div>
+            <a href="#" class="btn btn-secondary">Add class</a>
+
         </div>
     </div>
+
+
+
+    <button class="btn btn-primary btn-lg mt-5"> Generate Schedule </button>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
