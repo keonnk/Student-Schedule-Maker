@@ -1,8 +1,8 @@
 # Student-Schedule-Maker
 
-[View Site](keanu-k.github.io/home)
+[View Site](https://keanu-k.github.io/home)
 
-Easy online tool to make schedules for your classes
+Online tool to make schedules for your classes with ease!
 
 Created using Bootstrap
 Submitted for WinHacks 2022
