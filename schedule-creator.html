@@ -22,24 +22,82 @@
     <!--NavBar-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Student Schedule Maker</a>
+        <a class="navbar-brand" href="index.html">Student Schedule Maker</a>
       </div>
     </nav>
 
     <h1 class="m-5"> Schedule Creator </h1>
     
-    <div class="card container-fluid" style="width: 18rem;"> <!--Container fluid adds auto margins to both sides so its in the middle-->
+    <!--Class card 1-->
+    <div class="card container-fluid" style="width: 20rem;"> <!--Container fluid adds auto margins to both sides so its in the middle-->
         <div class="card-body">
 
             <h5 class="card-title mb-3">Class 1</h5>
+
+            <!--Class Name input-->
             <div class="form-floating mb-3 mt-2">
                 <input class="form-control" type="text" placeholder="Class Name" aria-label="Class Name">
                 <label for="floatingInput">Class Name</label>
             </div>
+
+            <!--Checkboxes-->
+            <div class="form-check form-check-inline mb-3">
+                <input class="form-check-input" type="checkbox" id="mondayCheckbox" value="Monday">
+                <label class="form-check-label" for="mondayCheckbox">Mon</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="tuesdayCheckbox" value="Tuesday">
+                <label class="form-check-label" for="tuesdayCheckbox">Tue</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="wednesdayCheckbox" value="Wednesday">
+                <label class="form-check-label" for="wednesdayCheckbox">Wed </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="thursdayCheckbox" value="Thursday">
+                <label class="form-check-label" for="thursdayCheckbox">Thu</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="fridayCheckbox" value="Friday">
+                <label class="form-check-label" for="fridayCheckbox">Fri</label>
+            </div>
+
+            <!--From class time-->
+            <p class="lead mt-3">From: </p>
+            <div class="row">
+                <div class="col-9"> <!--Entered col-9 to take 9/12 units, the rest will be filled with next col without needing to write unit explicitely-->
+                    <div class="form-floating">
+                        <input class="form-control" type="text" placeholder="From Class Time" aria-label="Class Time">
+                        <label for="floatingInput">Class Time</label>
+                    </div>
+                </div>
+                <select class="col form-select form-select-sm">
+                    <option selected>AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
+            <!--To class time-->
+            <p class="lead mt-4">To: </p>
+            <div class="row mb-4">
+                <div class="col-9"> <!--Entered col-9 to take 9/12 units, the rest will be filled with next col without needing to write unit explicitely-->
+                    <div class="form-floating">
+                        <input class="form-control" type="text" placeholder="To Class Time" aria-label="Class Time">
+                        <label for="floatingInput">Class Time</label>
+                    </div>
+                </div>
+                <select class="col form-select form-select-sm">
+                    <option selected>AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
             <a href="#" class="btn btn-secondary">Add class</a>
 
         </div>
     </div>
+
+    
 
 
 
